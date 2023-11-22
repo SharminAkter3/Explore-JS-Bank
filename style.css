@@ -1,0 +1,62 @@
+.amound-container{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.amount-box{
+    padding: 20px;
+    border: 1px solid gray;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px gray;
+}
+
+.deposite{
+      background-color: rgb(210, 68, 210);
+}
+
+.withdraw{
+    background-color:rgb(74, 74, 200);
+}
+
+.total{
+    background-color: rgb(234, 83, 163);
+}
+
+.deposite-withdraw-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    gap:50px;
+    text-align: center;
+}
+
+.input-box{
+    padding: 20px;
+    border: 1px solid gray;
+}
+
+input{
+    padding: 10px 20px;
+}
+
+.btn{
+    padding: 10px 20px;
+    margin-top:20px;
+    font-size: large;
+    font-weight: bold;
+    background-color:navy;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}

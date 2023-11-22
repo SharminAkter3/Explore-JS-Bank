@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="amound-container">
+        <div class="deposite amount-box">
+               <div>
+                    <h1 class="amount" id="deposite-amount">00</h1>
+                    <p> Deposite</p> 
+               </div>
+        </div>
+        <div class="withdraw amount-box">
+            <div>
+                <h1 class="amount" id="withdraw-amount">00</h1>
+                <p> Withdraw </p> 
+           </div>
+        </div>
+        <div class="total amount-box">
+            <div>
+                <h1 class="amount" id="total-amount">00</h1>
+                <p> Total </p> 
+           </div>
+        </div>
+    </div>
+
+    <div class="deposite-withdraw-container">
+        <div class="deposite-box input-box">
+             <input type="number" id="deposite-input">
+             <br>
+             <button onclick="handleDeposite()" class="btn">Deposite</button>
+        </div>
+        <div class="withdraw-box input-box">
+            <input type="number" id="withdraw-input">
+            <br>
+            <button onclick="handleWithdraw()" class="btn">withdraw</button>
+        </div>
+    </div>
+
+
+
+    <!-- script file link -->
+    <script src="/app.js"></script>
+</body>
+</html>
